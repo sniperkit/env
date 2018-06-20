@@ -13,8 +13,8 @@ import (
 	"log"
 	"net/url"
 
-	"github.com/caarlos0/env"
-	"github.com/caarlos0/env/parsers"
+	"github.com/sniperkit/env"
+	"github.com/sniperkit/env/parsers"
 )
 
 type config struct {

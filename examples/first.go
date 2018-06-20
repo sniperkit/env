@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/caarlos0/env"
+	"github.com/sniperkit/env"
 )
 
 type config struct {

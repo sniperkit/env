@@ -10,7 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/caarlos0/env"
+	"github.com/sniperkit/env"
+
 	"github.com/stretchr/testify/assert"
 )
 
@@ -44,8 +45,8 @@ type ParentStruct struct {
 }
 
 type InnerStruct struct {
-	Inner string `env:"innervar"`
-	Number uint  `env:"innernum"`
+	Inner  string `env:"innervar"`
+	Number uint   `env:"innernum"`
 }
 
 func TestParsesEnv(t *testing.T) {
